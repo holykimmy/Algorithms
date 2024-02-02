@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/kimmy/C++/Algorithm2/week2/output/lab1_2FeqDiff'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z5mergePiiii, symObjAddr: 0x0, symBinAddr: 0x100003828, symSize: 0x334 }
+  - { offsetInCU: 0xB44, offset: 0xB44, size: 0x8, addend: 0x0, symName: __ZNSt3__13maxB7v160006IiEERKT_S3_S3_, symObjAddr: 0x4E8, symBinAddr: 0x100003D10, symSize: 0x2C }
+  - { offsetInCU: 0xB87, offset: 0xB87, size: 0x8, addend: 0x0, symName: __ZNSt3__13minB7v160006IiEERKT_S3_S3_, symObjAddr: 0x514, symBinAddr: 0x100003D3C, symSize: 0x2C }
+  - { offsetInCU: 0xBCA, offset: 0xBCA, size: 0x8, addend: 0x0, symName: __ZNSt3__13maxB7v160006IiNS_6__lessIiiEEEERKT_S5_S5_T0_, symObjAddr: 0x678, symBinAddr: 0x100003EA0, symSize: 0x54 }
+  - { offsetInCU: 0xC5F, offset: 0xC5F, size: 0x8, addend: 0x0, symName: __ZNSt3__13minB7v160006IiNS_6__lessIiiEEEERKT_S5_S5_T0_, symObjAddr: 0x700, symBinAddr: 0x100003F28, symSize: 0x54 }
+  - { offsetInCU: 0x2FE1, offset: 0x2FE1, size: 0x8, addend: 0x0, symName: __Z5mergePiiii, symObjAddr: 0x0, symBinAddr: 0x100003828, symSize: 0x334 }
+  - { offsetInCU: 0x30B0, offset: 0x30B0, size: 0x8, addend: 0x0, symName: __Z9mergeSortPiii, symObjAddr: 0x334, symBinAddr: 0x100003B5C, symSize: 0x98 }
+  - { offsetInCU: 0x3110, offset: 0x3110, size: 0x8, addend: 0x0, symName: __Z8freqDiffPii, symObjAddr: 0x3CC, symBinAddr: 0x100003BF4, symSize: 0x11C }
+  - { offsetInCU: 0x319E, offset: 0x319E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x540, symBinAddr: 0x100003D68, symSize: 0x138 }
+  - { offsetInCU: 0x321F, offset: 0x321F, size: 0x8, addend: 0x0, symName: __ZNKSt3__16__lessIiiEclB7v160006ERKiS3_, symObjAddr: 0x6CC, symBinAddr: 0x100003EF4, symSize: 0x34 }
+...

@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/kimmy/C++/Algorithm2/week2/output/lab1_2Feqfiff'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z5mergePiiii, symObjAddr: 0x0, symBinAddr: 0x1000039D4, symSize: 0x334 }
+  - { offsetInCU: 0x2E6C, offset: 0x2E6C, size: 0x8, addend: 0x0, symName: __Z5mergePiiii, symObjAddr: 0x0, symBinAddr: 0x1000039D4, symSize: 0x334 }
+  - { offsetInCU: 0x2F3B, offset: 0x2F3B, size: 0x8, addend: 0x0, symName: __Z9mergeSortPiii, symObjAddr: 0x334, symBinAddr: 0x100003D08, symSize: 0x98 }
+  - { offsetInCU: 0x2F9B, offset: 0x2F9B, size: 0x8, addend: 0x0, symName: __Z18consencutiveNumberPii, symObjAddr: 0x3CC, symBinAddr: 0x100003DA0, symSize: 0xC0 }
+  - { offsetInCU: 0x300D, offset: 0x300D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x48C, symBinAddr: 0x100003E60, symSize: 0x124 }
+...
