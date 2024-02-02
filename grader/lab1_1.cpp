@@ -12,15 +12,15 @@ int find_ans(int arr[], int n, int k, int count[])
         {
             if (arr[i] + arr[j] == k)
             {
-                // cout <<  " i+j "<<arr[i] + arr[j] << endl;
+
                 count[i] = i;
-                count[i+1] = j;
+                count[i + 1] = j;
                 cout << count[0] << " " << count[1] << endl;
                 counter++;
             }
         }
     }
-    // cout << counter << endl;
+
     return counter;
 }
 
@@ -38,16 +38,8 @@ int main()
 
     int ans = find_ans(arr, n + 1, k, count);
 
-    // if (ans > 1)
-    // {
-       
-    //    for (int i =0 ; i < 2; i++){
-    //     cout << count[i] ;
-    //    }
-    // }
-
-    // return -1;
-    if (ans == 0 ){
+    if (ans == 0)
+    {
         cout << "-1" << endl;
     }
 }
