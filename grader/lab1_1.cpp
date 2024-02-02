@@ -12,7 +12,6 @@ int find_ans(int arr[], int n, int k, int count[])
         {
             if (arr[i] + arr[j] == k)
             {
-
                 count[i] = i;
                 count[i + 1] = j;
                 cout << count[0] << " " << count[1] << endl;
@@ -40,6 +39,6 @@ int main()
 
     if (ans == 0)
     {
-        cout << "-1" << endl;
+        cout << -1 << endl;
     }
 }
