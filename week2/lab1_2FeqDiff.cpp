@@ -68,7 +68,7 @@ int freqDiff(int arr[], int n)
             ++currentFreq;
         } else {
             maxFreq = max(maxFreq, currentFreq);
-            minFreq = min(minFreq, currentFreq);;
+            minFreq = min(minFreq, currentFreq);
             currentFreq = 1;
         }
     }

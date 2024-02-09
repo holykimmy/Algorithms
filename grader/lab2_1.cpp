@@ -1,28 +1,33 @@
 #include <iostream>
 using namespace std;
 
-int interpolation(int arr[], int l, int r, int k)
+int interpolation_sort(int arr[], int l, int r, int k)
 {
-    if (l < r && k >= arr[l] && k <= arr[r])
+    int mid = l + ((double)(r - l) / (arr[r] - arr[l])) * (k - arr[l]);
+    // int mid = l + (((k - arr[l]) * (r - l)) / (arr[r] - arr[l]));
+    cout << mid << " ";
+    while (l < r && k >= arr[l] && k <= arr[r])
     {
-        int mid = l + (((k - arr[l]) * (r - 1)) / (arr[r] - arr[l]));
-        cout << mid << " ";
+        // int mid = l + (((k - arr[l]) * (r - l)) / (arr[r] - arr[l]));
+        
+        
         if (arr[mid] == k)
         {
             return mid;
         }
         if (arr[mid] < k)
         {
-            return interpolation(arr, mid + 1, r, k);
+            return interpolation_sort(arr, mid + 1, r, k);
         }
         else
         {
-            return interpolation(arr, l, mid - 1, k);
+            return interpolation_sort(arr, l, mid - 1, k);
         }
     }
+    // return -1;
 }
 
-int bubble_sort(int arr[], int n)
+void bubble_sort(int arr[], int n)
 {
     for (int i = 0; i < n - 1; i++)
     {
@@ -47,7 +52,8 @@ int main()
     }
     bubble_sort(arr, n);
 
-    interpolation(arr, 0, n - 1, k);
+    int ans = interpolation_sort(arr, 0, n - 1, k);
+    cout << ans << endl;
 
     // for (i = 0; i < n; i++)
     // {
